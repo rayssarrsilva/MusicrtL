@@ -1,0 +1,58 @@
+[Dados brutos] 
+   ↓ (Python + Pandas)
+[Limpeza e transformação] 
+   ↓ (PostgreSQL para armazenar)
+[Modelagem ML - Scikit-learn / TensorFlow / PyTorch]
+   ↓ (CI/CD automatiza treinos e deploy)
+[Dashboard Streamlit para usuários finais]
+
+
+
+---
+
+📊 Etapas do projeto (compacto)
+1-Coleta de dados
+
+Puxar histórico musical via Spotify API.
+
+Pegar clima atual via OpenWeatherMap API.
+
+Registrar horário e localização do usuário.
+
+2-Armazenamento
+
+Guardar dados em PostgreSQL (usuário, músicas, clima, contexto).
+
+3-Pré-processamento
+
+Usar Pandas para limpar e organizar dados (BPM, energia, gêneros).
+
+4-Modelagem
+
+Scikit-learn: recomendações simples baseadas em padrões (ex.: manhã + sol → pop).
+
+TensorFlow/PyTorch: redes neurais que aprendem preferências ao longo do tempo.
+
+5-Interface
+
+Criar dashboard em Streamlit com botões:
+
+“Solicitar músicas para ouvir agora”
+
+“Modo Festa / Relax / Corrida / Carro”
+
+"Uma musica ideal para ouvir agora"
+
+Mostrar gráficos (gêneros mais ouvidos, BPM médio, artistas favoritos).
+
+6-Automação
+
+Linux + Bash: scripts para atualizar dados diariamente.
+
+GitHub Actions (CI/CD): automatizar treinos e deploy do dashboard.
+
+7-Deploy
+
+Empacotar tudo em Docker.
+
+Publicar no Streamlit Cloud ou em servidor próprio (AWS, DigitalOcean).

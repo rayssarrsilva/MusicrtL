@@ -1,0 +1,9 @@
+criar:
+python -m venv nome_do_venv
+
+ativar:
+.\nome_do_venv\Scripts\Activate.ps1
+.\semana1\Scripts\Activate.ps1
+
+desativar:
+deactivate

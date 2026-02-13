@@ -1,0 +1,78 @@
+RhythmWeatherMood
+
+🎶 Como funciona o DJ IA aprimorado
+Coleta de dados contextuais
+
+APIs públicas de clima (ex.: OpenWeatherMap): temperatura, chuva, sol, vento.
+
+Horário do dia: manhã, tarde, noite, madrugada.
+
+Localização: rua, carro, casa (pode ser inferido pelo celular ou input manual).
+
+Histórico musical
+
+Spotify API: músicas mais ouvidas, gêneros, artistas favoritos.
+
+Ritmo numérico: BPM (batidas por minuto) e energia da música.
+
+Modelagem inteligente
+
+Scikit-learn: recomenda músicas com base em padrões simples (gênero + BPM + horário).
+
+TensorFlow/PyTorch: redes neurais que aprendem seu gosto ao longo do tempo e refinam as recomendações.
+
+Dashboard interativo
+
+Streamlit: botão “Solicitar músicas para ouvir agora”.
+
+O sistema gera uma playlist personalizada considerando clima + horário + localização + histórico musical.
+
+Exemplo:
+
+Chuva à noite → músicas calmas, lo-fi ou jazz.
+
+Sol de manhã → músicas energéticas, pop ou eletrônica.
+
+Correndo na rua → músicas com BPM alto (120+).
+
+No carro → músicas animadas e com boa batida para viagem.
+
+Deploy profissional
+
+Docker: empacota tudo para rodar em qualquer servidor.
+
+GitHub Actions (CI/CD): atualiza automaticamente o modelo e o dashboard sempre que você adicionar novas músicas ou ajustar o código.
+
+--------
+USUARIO INTERFACE
+
+🎛️ Como será apresentado ao usuário
+Interface principal: um dashboard interativo em Streamlit, acessado pelo navegador.
+
+O usuário vê gráficos do histórico musical (gêneros, BPM, artistas mais ouvidos).
+
+Botões como:
+
+“Solicitar músicas para ouvir agora” → gera playlist com base em clima, horário e localização.
+
+“Modo Festa / Relax / Corrida / Carro” → playlists temáticas ajustadas ao contexto.
+
+Solicitar uma música para ouvir agora
+
+Visual moderno, com cores e ícones que remetem a música e clima.
+
+Fluxo de uso:
+
+O usuário abre o dashboard (link local ou hospedado).
+
+O sistema coleta dados (clima via API, horário, localização).
+
+O modelo recomenda músicas personalizadas.
+
+O usuário recebe a playlist e pode ouvir direto no Spotify (via integração).
+
+Deploy:
+
+Você empacota tudo em Docker → roda em qualquer servidor ou até na sua máquina.
+
+Pode publicar no Streamlit Cloud ou em um VPS (DigitalOcean, AWS, etc).

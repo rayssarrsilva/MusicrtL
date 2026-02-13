@@ -1,0 +1,9 @@
+Biblioteca em Python voltada para modelos clássicos de machine learning.
+
+Exemplos de algoritmos:
+
+Regressão Linear → prever preço de casas com base em tamanho e localização.
+
+Árvores de Decisão → classificar se um cliente vai comprar ou não, com base em idade e renda.
+
+SVM (Support Vector Machine) → separar imagens de gatos e cachorros com base em características extraídas.

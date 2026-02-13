@@ -1,0 +1,13 @@
+Framework criado pelo Facebook (Meta), muito usado em pesquisa acadêmica e indústria.
+
+Mais flexível e dinâmico que TensorFlow, ideal para prototipar modelos complexos.
+
+Usado em:
+
+Deep Learning avançado → redes neurais convolucionais (CNNs) para imagens.
+
+NLP → transformers, modelos como BERT e GPT.
+
+Pesquisa científica → experimentos rápidos em IA.
+
+📌 Exemplo: rede neural simples em PyTorch.

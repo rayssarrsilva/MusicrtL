@@ -1,0 +1,11 @@
+Framework criado pelo Google para redes neurais profundas (Deep Learning).
+
+Usado em:
+
+Visão Computacional → reconhecimento de imagens (ex.: identificar objetos em fotos).
+
+NLP (Processamento de Linguagem Natural) → chatbots, tradução automática.
+
+Reconhecimento de voz → transformar áudio em texto.
+
+📌 Exemplo: rede neural simples para classificar dígitos escritos à mão (MNIST).

@@ -1,0 +1,12 @@
+1- python
+2- pandas
+3- jupyter notebook
+4- git _ github
+5- PostgreSQL
+6- CI/CD github actions
+7- Linux + Bash scripting - automacao de tarefas
+8- sckit-learn, modelos classicos de ML 
+9- Tensorflow, deeplearning
+10- PyTorch, deeplearning 
+11- Streamlit, dashboards interativos para mostrar modelos
+12- Docker 
